@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+
+table {
+  margin: 30px;
+  text-align: center;
+  border-collapse: collapse;
+  
+}
+
+td, th {
+  border: 1px solid #eee;
+  min-width: 50px;
+  padding: 2px 4px;
+}
+tr:nth-of-type(even){
+  background-color: rgb(225, 226, 241);
+}
+h2{
+  text-align: center;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
